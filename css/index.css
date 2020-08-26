@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	background-color:#EAF3D5  ; 
+}
+h1{
+	text-align: center;
+}
+
+section{
+	border:1px solid black;
+	margin: 2% 10%;
+	height: 290px;
+	position: relative;
+	overflow: auto;
+	
+	
+}
+section h2{
+
+	border:1px solid black;
+	width: 20%;
+
+	position: absolute;
+	left: 79.9%;
+	border-right: none;
+	margin-top: 0.4px;
+	border-top: none;
+	text-align: center;
+}
+section p{
+	position: relative;
+	top: 20%;
+	margin: 0% 2%;
+
+
+}
+
+#chicken{
+	background-color: #8EC8DE;
+}
+#Mutton{
+	background-color: #BFA9E9;
+}
+#sushi{
+	background-color: #EEBE9B ;
+}
+#C{
+	background-color: #466BF9 ;
+}
+#M{
+	background-color: #F222D5 ;
+}
+
+#S{
+	background-color: #DB8914 ;
+}
+@media (min-width:768px ) and (max-width:991px ){
+	#chicken,#Mutton{
+		width:39%;
+		float:left;
+		height: 520px;
+		padding-left: 1%;
+	}
+	#sushi{
+		clear: both;
+	}
+	#chicken{
+		margin-right: 1%;
+	}
+	#Mutton{
+		margin-left: 1%;
+	}
+	#chicken h2, #Mutton h2{
+		left: 70%;
+		width: 30%;
+		
+	}
+	section{
+
+	}
+}
+@media (min-width: 992px)
+{
+	section{
+		width:25%;
+		float: left;
+		height: 500px;
+		
+
+	}
+	#chicken{
+		margin-right: 1%;
+	}
+	#Mutton{
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+	#sushi{
+		margin-left:1%; 
+	}
+	section h2{
+		width: 40%;
+		left: 59.9%
+	}
+}
+
